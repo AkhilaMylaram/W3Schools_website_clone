@@ -1,0 +1,767 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3Schools Online Web Tutorials</title>
+    <link rel="stylesheet" href="w3s.css">
+    <link rel="shortcut icon" type="x-icon" href="./favicon.ico">
+</head>
+
+<body style="font-family: 'Source Sans Pro', sans-serif; ">
+   <div>
+    <div class="top-navbar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg" height=40px alt="W3 schools logo" style="margin:12px">
+        <div>
+            <select style="width:126px;">
+                <option class="Tutorial">Tutorials <span style='font-size:100px;'>&#11206;</span></option>
+                <option>HTML and CSS</option>
+                <option>JavaScript</option>
+                <option>Backend</option>
+                <option>Data Analytics</option>
+                <option>Web Building</option>
+            </select>
+        </div>
+        <div>
+            <select style="width:136px;">
+                <option class="Tutorial">Exercises <span style='font-size:100px;'>&#11206;</span></option>
+                <option>HTML and CSS</option>
+                <option>JavaScript</option>
+                <option>Backend</option>
+                <option>Data Analytics</option>
+                <option>Web Building</option>
+            </select>
+        </div>
+        <div>
+            <select style="width:150px;">
+                <option class="Tutorial">Certificates <span style='font-size:100px;'>&#11206;</span></option>
+                <option>HTML and CSS</option>
+                <option>JavaScript</option>
+                <option>Backend</option>
+                <option>Data Analytics</option>
+                <option>Web Building</option>
+            </select>
+        </div>
+        <div>
+            <select style="width:126px;">
+                <option class="Tutorial">Services<span style='font-size:100px;'>&#11206;</span></option>
+                <option>HTML and CSS</option>
+                <option>JavaScript</option>
+                <option>Backend</option>
+                <option>Data Analytics</option>
+                <option>Web Building</option>
+            </select>
+
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search..." autocomplete="off" class="inputstyling">
+
+            <svg viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg" height="25px">
+                <path d="M11.8153 10.3439C12.6061 9.2673 13.0732 7.9382 13.0732 6.5C13.0732 2.91015 10.163 0 6.57318 0C2.98333 0 0.0731812 2.91015 0.0731812 6.5C0.0731812 10.0899 2.98333 13 6.57318 13C8.01176 13 9.3412 12.5327 10.4179 11.7415L10.4171 11.7422C10.4466 11.7822 10.4794 11.8204 10.5156 11.8566L14.3661 15.7071C14.7566 16.0976 15.3898 16.0976 15.7803 15.7071C16.1708 15.3166 16.1708 14.6834 15.7803 14.2929L11.9298 10.4424C11.8936 10.4062 11.8553 10.3734 11.8153 10.3439ZM12.0732 6.5C12.0732 9.53757 9.61075 12 6.57318 12C3.53561 12 1.07318 9.53757 1.07318 6.5C1.07318 3.46243 3.53561 1 6.57318 1C9.61075 1 12.0732 3.46243 12.0732 6.5Z" fill="black">
+
+                </path>
+            </svg>
+
+        </div>
+        <div class="spacesstyling">
+
+            <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 0 640 512" aria-hidden="true" style="margin-left: 0px;margin-right:5px; color: #9763f6; margin-top:5px;">
+                <path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z" fill="currentColor" />
+            </svg>
+            <span class="navspaces">Spaces</span>
+        </div>
+        <div class=" tnb-certificates-btn">
+
+            <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 0 576 512" aria-hidden="true" style="margin-left: 0px;margin-right:5px; color: #9763f6;  margin-top:5px;">
+                <path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48H69.5c3.8 0 7.1 2.7 7.9 6.5l51.6 271c6.5 34 36.2 58.5 70.7 58.5H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H199.7c-11.5 0-21.4-8.2-23.6-19.5L170.7 288H459.2c32.6 0 61.1-21.8 69.5-53.3l41-152.3C576.6 57 557.4 32 531.1 32h-411C111 12.8 91.6 0 69.5 0H24zM131.1 80H520.7L482.4 222.2c-2.8 10.5-12.3 17.8-23.2 17.8H161.6L131.1 80zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" fill="currentColor" />
+
+            </svg>
+            <span>Get Certified</span>
+
+        </div>
+        <div class="tnb-right-section">
+            <span class="w3-right ws-green">Sign Up</span>
+            <span class="ws-login">Log in </span>
+        </div>
+    </div>
+    <div class="languages-nav">
+        <a class="ga-nav">HTML</a>
+        <a class="ga-nav">CSS</a>
+        <a class="ga-nav">JAVASCRIPT</a>
+        <a class="ga-nav">SQL</a>
+        <a class="ga-nav">PYTHON</a>
+        <a class="ga-nav">JAVA</a>
+        <a class="ga-nav">PHP</a>
+        <a class="ga-nav">C</a>
+        <a class="ga-nav">BOOTSTRAP</a>
+        <a class="ga-nav">REACT</a>
+        <a class="ga-nav">MYSQL</a>
+        <a class="ga-nav">EXCEL</a>
+        <a class="ga-nav">DJANGO</a>
+        <a class="ga-nav">NUMPY</a>
+        <a class="ga-nav">PANDAS</a>
+        <a class="ga-nav">AIML</a> 
+    </div> 
+
+    <div class="herobody">
+        <img src="https://scontent.fhyd11-2.fna.fbcdn.net/v/t39.30808-6/376798633_805419938050956_8242758675031312106_n.png?_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Hdre-ARIspsQ7kNvgEgeloF&_nc_ht=scontent.fhyd11-2.fna&_nc_gid=Am9KabWClxrwQr-EnSPQid-&oh=00_AYAMnMH9JKcr7opIH6V88LIv_UKF82zOHxnfU2GoFbXBtg&oe=66DA1740" class="heroimage">
+            <div class="content">
+                <h1 id="learncode">Learn to Code</h1>
+                <h3 id="learn2">With the world's largest web developer site.</h3>
+                <br>
+                <br>
+                <div class="d-flex flex-row">
+                    <input type="text" placeholder="Search Our Tutorials Ex: Html " class="inputst ">
+                    <input class="greeninput">
+                </div>
+                <br>
+                
+                <h3 class="notsure">Not Sure Where To Start</h3>
+            </div>
+    </div>
+            <svg style=" margin:0px; padding:0px; line-height: normal; background-color: #D9EEE1;" width="100%" height="120"  viewBox="0 0 99.2 99.2" preserveAspectRatio="none">
+                <path id="wavepath" d="M0,0 L110, 0C35,150 35,0 0,100z" fill="#282A35" style="fill:#282A35;"></path>
+            </svg>
+        
+       
+    <div class="htmlbox ">
+            <div>
+                   <span class="minihead">HTML</span>
+                   <h2 style="font-size: 19px; font-family: 'Source Sans Pro', sans-serif; margin-left:210px; font-style:normal;">The Language For Building Webpages</h2>
+                    <br>
+                    <button class="btnstyle" style="background-color:#04AA6D ; color: white;" >Learn HTML</button><br>
+                    <button class="btnstyle" style="background-color:#FFF4A3 !important;color: black !important;">Video Tutorial</button><br>
+                    <button class="btnstyle" style="background-color:#282A35; color: white;">Html Reference</button><br>
+                    <button class="btnstyle" style="background-color:#FFC0C7 ;color:black !important;">Get Certified</button>
+                
+
+            </div> 
+            <div>
+                <div class="examplebox">
+                    <h1 class="htmlexample">HTML Example: </h1>
+                    <div class="htmlinnerexbox">
+                        <h1 class="textinsidehtml">&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;head&gt;<br>&lt;title&gt;<span style="color:black;">HTML Tutorial</span>&lt;/title&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br><br>&lt;h1&gt;<span style="color:black;">This is a heading </span>&lt;/h1&gt;<br>&lt;p&gt;<span style="color:black;">This is a paragraph.</span>&lt;/p&gt;<br><br>&lt;/body&gt;<br>&lt;/html&gt;</h1>
+                        
+
+                    </div> 
+                    <div>
+                        <button class="trybutton">Try it Yourself</button>
+                    </div>
+                </div>
+                
+            </div>           
+    </div>  
+    <div class="htmlbox " style="background-color:#FFF4A3;">
+        <div>
+               <span class="cminihead">CSS</span>
+               <h2 style="font-size: 19px; font-family: 'Source Sans Pro', sans-serif; margin-left:210px; font-style:normal; padding:0px;">The Language For Building Webpages</h2>
+                <br>
+                <button class="btnstyle" style="background-color:#04AA6D ; color: white;" >Learn CSS</button><br>
+                <button class="btnstyle" style="background-color:#282A35; color: white;">CSS Reference</button><br>
+                <button class="btnstyle" style="background-color:#FFC0C7 ;color:black !important;">Get Certified</button>
+            
+
+        </div> 
+        <div>
+            <div class="examplebox">
+                <h1 class="htmlexample">CSS Example: </h1>
+                <div class="htmlinnerexbox">
+                    <h1 class="textinsidehtml">body {<br>
+                        &nbsp;&nbsp;<span style="color:#f80101; font-weight:480;">background-color:</span> <span style="color:#055aa4; font-weight:480;">lightblue;</span><br>
+                        }<br><br>
+                        h1 {<br>
+                        &nbsp;&nbsp;<span style="color:#f80101; font-weight:480;">color:</span> <span style="color:#055aa4; font-weight:480;">white;</span><br>
+                        &nbsp;&nbsp;<span style="color:#f80101; font-weight:480;">text-align:</span> <span style="color:#055aa4; font-weight:480;">center;</span><br>
+                        }<br><br>
+                        p {<br>
+                        &nbsp;&nbsp;<span style="color:#f80101; font-weight:480;">font-family:</span> <span style="color:#055aa4; font-weight:480;">verdana;</span><br>
+                        }</h1>
+                    
+
+                </div> 
+                <div>
+                    <button class="trybutton">Try it Yourself</button>
+                </div>
+            </div>
+            
+        </div>           
+</div> 
+<div class="htmlbox " style="background-color:#282A35;">
+    <div>
+           <h1 class="jminihead" >JavaScript</h1>
+           <h2 style="font-size: 19px; font-family: 'Source Sans Pro', sans-serif; margin-left:210px; font-style:normal; color:white;">The Language For Building Webpages</h2>
+            <br>
+            <button class="btnstyle" style="background-color:#04AA6D ; color: white;" >Learn JavaScript</button><br>
+            <button class="btnstyle" style="background-color:white; color: Black;">JavaScript Reference</button><br>
+            <button class="btnstyle" style="background-color:#FFC0C7 ;color:black !important;">Get Certified</button>
+        
+
+    </div> 
+    <div>
+        <div class="jexamplebox">
+            <h1 class="hjtmlexample">JavaScript Example: </h1>
+            <div class="jhtmlinnerexbox">
+                <h1 class="textinsidehtml"> &lt; button onclick = &quot;<span style = "color:blue;"> myFunction () &quot;</span>&gt;<span style = "color:black;">Click Me !&lt;</span> /button &gt;<br><br>
+                    &lt; script &gt;<br>
+                    <span style = "color:blue;"></span> function </span> <span style = "color:black;"> myFunction ()</span> {<br>
+                    &nbsp;&nbsp;<span style = "color:blue;"> let </span> x = <span style = "color:black;"> document . getElementById (&quot;demo&quot;);<br>
+                    &nbsp;&nbsp; x . style . fontSize = &quot; 25px &quot;;<br>
+                    &nbsp;&nbsp; x . style . color </span> = &quot; red &quot;;<br>
+                    }<br>
+                    &lt;/script&gt;</h1>
+                
+
+            </div> 
+            <div>
+                <button class="trybutton">Try it Yourself</button>
+            </div>
+        </div>
+        
+    </div>           
+</div> 
+
+<div class="htmlbox" style="background-color:#F3ECEA;">
+    <div>
+           <span class=" pminihead">Python</span>
+           <h2 style="font-size: 19px; font-family: 'Source Sans Pro', sans-serif; margin-left:210px; font-style:normal;">A Popular Programming Language</h2>
+            <br>
+            <button class="btnstyle" style="background-color:#04AA6D ; color: white;" >Learn Python</button><br>
+            <button class="btnstyle" style="background-color:#282A35; color: white;">Python Reference</button><br>
+            <button class="btnstyle" style="background-color:#FFC0C7 ;color:black !important;">Get Certified</button>
+        
+
+    </div> 
+    <div>
+        <div class="examplebox" style=" height:400px; width:400px;">
+            <h1 class="htmlexample">Python Example: </h1>
+            <div class="htmlinnerexbox" style=" height:250px; width:350px;">
+                <h1 class="textinsidehtml"><span style = "color:blue;">if </span> <span style = "color:red;"> 5 &gt; 2:</span><br><br>
+                    &nbsp;&nbsp;<span style = "color:black;"> print </span>(&quot;Five is greater than two!&quot;)</h1>
+                
+
+            </div> 
+            <div>
+                <button class="trybutton">Try it Yourself</button>
+            </div>
+        </div>
+        
+    </div>           
+</div> 
+       
+<div class="htmlbox" style="background-color:#96D4D4 !important;">
+    <div>
+           <span class="sminihead">SQL</span>
+           <h2 style="font-size: 19px; font-family: 'Source Sans Pro', sans-serif; margin-left:210px; font-style:normal;">A Popular Programming Language</h2>
+            <br>
+            <button class="btnstyle" style="background-color:#04AA6D ; color: white;" >Learn SQL</button><br>
+            <button class="btnstyle" style="background-color:#282A35; color: white;">SQL Reference</button><br>
+            <button class="btnstyle" style="background-color:#FFC0C7 ;color:black !important;">Get Certified</button>
+        
+
+    </div> 
+    <div>
+        <div class="cexamplebox" style=" height:400px; width:400px;">
+            <h1 class="htmlexample">SQL Example: </h1>
+            <div class="htmlinnerexbox" style=" height:250px; width:350px;">
+                <h1 class="textinsidehtml"><span style = "color:rgb(4, 27, 201);">SELECT * FROM  </span> <span style = "color:black;">Customers</span><br><br>
+                    <span style = "color:rgb(4, 4, 181);">Where</span> <span style = "color:black;">Country = </span>Mexico<span style = "color:black;">; </span></h1>
+                
+
+            </div> 
+            <div>
+                <button class="trybutton">Try it Yourself</button>
+            </div>
+        </div>
+        
+    </div>           
+</div> 
+<div class="bgfull"> 
+    <span style="color:black;">.</span>
+    <div class="flexing1">
+        <div class="flexing"> 
+            <div class="minibox" style="background-color:#FFC0C7;">
+                <h1 class="phphead">PHP</h1>
+                <h1 class="phppara">A Web Server Programming Language</h1> 
+                <button class="btnphp"> Learn PHP</button>
+
+            </div>
+            <div class="minibox" style="background-color:#FFF4A3;">
+                <h1 class="phphead">jQuery</h1>
+                <h1 class="phppara">A JS library for developing web pages</h1> 
+                <button class="btnphp"> Learn jQuery</button>
+
+            </div> 
+        </div>
+        <div class="flexing"> 
+            <div class="minibox" style="background-color:#F3ECEA;">
+                <h1 class="phphead">Java</h1>
+                <h1 class="phppara">A programming language</h1> 
+                <button class="btnphp"> Learn Java</button>
+    
+            </div>
+            <div class="minibox" style="background-color:#D9EEE1">
+                <h1 class="phphead">C++</h1>
+                <h1 class="phppara">A programming language</h1> 
+                <button class="btnphp"> Learn C++</button>
+            </div>
+        </div> 
+        <div class="flexing"> 
+            <div class="minibox" style="background-color:#96D4D4;">
+                <h1 class="phphead">W3.CSS</h1>
+                <h1 class="phppara">A CSS framework for better responsive web pages</h1> 
+                <button class="btnphp"> Learn W3.CSS</button>
+    
+            </div>
+            <div class="minibox" style="background-color:#ffffff;">
+                <h1 class="phphead">Bootstrap</h1>
+                <h1 class="phppara">A CSS framework for designing better web pages</h1> 
+                <button class="btnphp"> Learn Bootstrap</button>
+            </div>
+        </div>
+        <div class="flexing"> 
+            <div class="cminibox" style="background-color:#FFC0C7;">
+                <h1 class="phphead">C</h1>
+                
+    
+            </div>
+            <div class="cminibox" style="background-color:#FFF4A3;">
+                <h1 class="phphead">C++</h1>
+                
+            </div>
+        </div> 
+        <div class="flexing"> 
+            <div class="bminibox" style="background-color:#ffffff;">
+                <h1 class="phphead1">R</h1>
+                
+    
+            </div>
+            <div class="bminibox" style="background-color:#D9EEE1;">
+                <h1 class="phphead1">Kotlin</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#96D4D4;">
+                <h1 class="phphead1">Node.js</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#FFC0C7;">
+                <h1 class="phphead1">React</h1>
+                
+            </div>
+        </div>
+        <div class="flexing"> 
+            <div class="bminibox" style="background-color:#FFC0C7;">
+                <h1 class="phphead1">JSON</h1>
+                
+    
+            </div>
+            <div class="bminibox" style="background-color:#ffffff;">
+                <h1 class="phphead1">Vue</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#D9EEE1;">
+                <h1 class="phphead1">MySQL</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#96D4D4;">
+                <h1 class="phphead1">XML</h1>
+                
+            </div>
+        </div>
+        <div class="flexing"> 
+            <div class="bminibox" style="background-color:#FFC0C7;">
+                <h1 class="phphead1">Sass</h1>
+                
+    
+            </div>
+            <div class="bminibox" style="background-color:#FFF4A3;">
+                <h1 class="phphead1">Icons</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#ffffff;">
+                <h1 class="phphead1">RWD</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#D9EEE1;">
+                <h1 class="phphead1">Graphics</h1>
+                
+            </div>
+        </div>
+        <div class="flexing"> 
+            <div class="bminibox" style="background-color:#96D4D4;">
+                <h1 class="phphead1">SVG</h1>
+                
+    
+            </div>
+            <div class="bminibox" style="background-color:#FFC0C7;">
+                <h1 class="phphead1">Canvas</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#FFF4A3;">
+                <h1 class="phphead1">Rasberry Pi</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#ffffff;">
+                <h1 class="phphead1">Cyber Security</h1>
+                
+            </div>
+        </div>
+        <div class="flexing"> 
+            <div class="bminibox" style="background-color:#D9EEE1;">
+                <h1 class="phphead1">Colors</h1>
+                
+    
+            </div>
+            <div class="bminibox" style="background-color:#96D4D4;">
+                <h1 class="phphead1">Git</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#FFC0C7;">
+                <h1 class="phphead1">Matplotlib</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#FFF4A3;">
+                <h1 class="phphead1">Numpy</h1>
+                
+            </div>
+        </div>
+        <div class="flexing"> 
+            <div class="bminibox" style="background-color:#ffffff;">
+                <h1 class="phphead1">Pandas</h1>
+                
+    
+            </div>
+            <div class="bminibox" style="background-color:#D9EEE1;">
+                <h1 class="phphead1">SciPy</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#96D4D4;">
+                <h1 class="phphead1">ASP</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#FFC0C7;">
+                <h1 class="phphead1">AngularJS</h1>
+                
+            </div>
+        </div>
+        <div class="flexing"> 
+            <div class="bminibox" style="background-color:#FFC0C7;">
+                <h1 class="phphead1">AppML</h1>
+                
+    
+            </div>
+            <div class="bminibox" style="background-color:#ffffff;">
+                <h1 class="phphead1">Go</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#D9EEE1;">
+                <h1 class="phphead1">TypeScript</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#96D4D4;">
+                <h1 class="phphead1">Django</h1>
+                
+            </div>
+        </div>
+        <div class="flexing"> 
+            <div class="bminibox" style="background-color:#FFC0C7;">
+                <h1 class="phphead1">MonogoDB</h1>
+                
+    
+            </div>
+            <div class="bminibox" style="background-color:#FFF4A3;">
+                <h1 class="phphead1">Statistics</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#ffffff;">
+                <h1 class="phphead1">DataScience</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#D9EEE1;">
+                <h1 class="phphead1">Typing Speed</h1>
+                
+            </div>
+        </div> 
+        <div class="flexing"> 
+            <div class="bminibox" style="background-color:#96D4D4;">
+                <h1 class="phphead1">How To</h1>
+                
+    
+            </div>
+            <div class="bminibox" style="background-color:#FFC0C7;">
+                <h1 class="phphead1">Code Game</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#FFF4A3;">
+                <h1 class="phphead1">Spaces</h1>
+                
+            </div>
+        
+            <div class="bminibox" style="background-color:#ffffff;">
+                <h1 class="phphead1">PostgreeSQL</h1>
+                
+            </div>
+        </div>
+        <div class="flexing"> 
+            <div class="cminibox" style="background-color:#96D4D4;">
+                <h1 class="phphead1 pa">Excel</h1>
+                
+    
+            </div>
+            <div class="cminibox" style="background-color:#FFF4A3;">
+                <h1 class="phphead1 pa">DSA-Data Structures Algorithms</h1>
+                
+            </div>
+        </div> 
+        <div class="flexing"> 
+            <div class="cminibox" style="background-color:#FFC0C7;">
+                <h1 class="phphead1 pa">Machine Learning</h1>
+                
+    
+            </div>
+            <div class="cminibox" style="background-color:#ffffff;">
+                <h1 class="phphead1 pa pa2S">Artificial Intelligence</h1>
+                
+            </div>
+        </div> 
+
+    </div> 
+    <div class="row codeeditor">
+        <div class="editorcontent">
+            <h1 style=" text-align: center; color: white; font-size:65px; margin-left:20%; ">Code Editor</h1>
+            <h4 style=" text-align: center; color: white;font-size: 19px; margin-left:20%; ">With our online code editor, you can edit code and view the result in your browser
+            </h4> <br>
+            <img src="https://www.w3schools.com/codeeditor.gif"  alt="Frontend Code Editor" class="imagevis" >
+
+            <button class="btns1">Try Frontend Editor (HTML/CSS/JS)</button><br><br>
+            <button class="btns2">Try Backend Editor (Python/PHP?C..)</button><br><br>
+        </div>
+    </div>
+    <div class="row spaces">
+        <div class="editorcontent">
+            <h1 style=" text-align: center; color: white; font-size:68px;font-weight:700;">W3Schools Spaces </h1>
+            <h4 style=" text-align: center; color: white;font-size: 19px;">If you want to create your own website, check out W3Schools Spaces.
+            </h4> 
+            <h4 style=" text-align: center; color: white;font-size: 19px;">It is free to use, and does not require any setup:
+            </h4> <br>
+            <img src="https://www.w3schools.com/spaces/dynamicspaces.webp" class="im">
+            <button style="margin-top: 45px; font-size: 21px;width: 300px;background-color:#04AA6D;border-radius:25px;color:white;
+        padding: 11px 18px; margin-left: 36%;" type="button" class="btn btn-success mx-auto d-block">Learn More</button><br><br>
+        </div>
+    </div>
+</div>  
+<div class="row mylearning">
+    <div class="editorcontent">
+        <h1 style=" text-align: center; color: rgb(0, 0, 0);font-weight: 700;font-size: 60px !important;">My Learning</h1>
+        <h4 style=" text-align: center; color: rgb(0, 0, 0);font-size: 20px;font-weight: 550;">Track your progress with our free "My Learning" program.
+        </h4>
+        <h4 style=" text-align: center; color: rgb(0, 0, 0);font-size: 20px;font-weight: 550;">Log in to your account, and start earning points!
+
+        </h4> <br>
+        <img src="https://www.w3schools.com/myl-green-off.webp" class="im">
+        <br>
+        <button style="margin-top: 16px; font-size: 21px;width: 300px;background-color:#04AA6D;border-radius:25px;color:white;
+    padding: 11px 18px; margin-left: 36%; border-radius:38px;" type="button" class="btn btn-success mx-auto d-block">Sign up for free</button><br><br>
+    </div>
+</div>
+<div class="row prouser">
+    <div class="editorcontent">
+        <h1 style=" text-align: center; color: rgb(250, 246, 246);font-size: 60px !important;font-weight: 700;">Become a PRO User</h1>
+        <h4 style=" text-align: center; color: #FFC0C7;font-size: 25px;">And unlock poweful features:</h4>
+        <ul style="list-style-type:dcircle; color:#ffffff; font-size:21px; ">
+                    <li >Browse W3Schools without ads</li>
+                    <li>Build and host Websites</li>
+                    <li >Get extra credits</li>
+                    <li >Priority support</li>                
+        </ul>
+        <br>
+        <button style="margin-top: 16px; font-size: 21px;width: 300px;background-color:#04AA6D;border-radius:25px;color:white;
+    padding: 11px 18px; margin-left: 33%; border-radius:38px;" type="button" class="btn btn-success mx-auto d-block">Learn More</button><br><br>
+    </div>
+</div>
+<div class="row colorpicker">
+    <div class="editorcontent">
+        <h1 style=" text-align: center; color: rgb(0, 0, 0);font-size: 60px;">Color Picker</h1>
+        <h4 style=" text-align: center; color: rgb(0, 0, 0);font-size: 19px;">W3School's famous color picker:
+        </h4><br>
+        <img class="mx-auto d-block" id="codeimg" style="margin-left: 42%;" src="https://www.w3schools.com/images/colorpicker.webp" alt=""> <br><br>
+    </div>
+</div>
+     
+<div class="row codegame">
+    <div class="editorcontent">
+        <h1 style=" font-family: 'Freckle Face', cursive;font-size:48px; text-align:center;">Code Game</h1>
+        <h4 style=" text-align: center; color: rgb(0, 0, 0); font-family: 'Freckle Face', cursive;font-size: 25px;">Help the Lynx collect pine cones!
+        </h4><br>
+        <img class="mx-auto d-block" id="codeimg" style="margin-left: 42%;" src="https://www.w3schools.com/images/w3lynx_200.webp" alt=""> <br><br>
+        <button style="margin-top: 20px; font-size: 21px;width: 160px; height:45px;background-color:#282A35;color:white;
+     margin-left:38%; border-radius:38px;" type="button" class="btn btn-dark mx-auto d-block">Play Game</button><br><br>
+    </div>
+</div>
+<div class="row excercise">
+    <div class="editorcontent fx">
+        <h1 style=" text-align: center; color: rgb(255, 255, 255); font-family: 'Freckle Face', cursive;
+              font-size: 48px;">Excercises and Quizzes</h1>
+        <h4 style=" text-align: center; color: rgb(255, 255, 255); font-family: 'Freckle Face', cursive;">Test your skills!
+        </h4><br>
+        <div class="flexing"> 
+            <div class="ckminibox" style="background-color:#04AA6D; width:100%;">
+                <h1 class="es" style=" margin-left:20px; margin-right:30px;">Exercises</h1>
+                </B>
+    
+            </div>
+            <br>
+            <div class="ckminibox" style="background-color:#FFF4A3; color:black;height:10%;width:100%;">
+                <h1 class="es" style=" margin-left: 30px !important;">Quizzes</h1>
+                
+            </div>
+            <br>
+            <br>
+
+        </div> 
+        <br>
+        <br>
+
+    </div>
+
+    <div class="row webtemplates">
+        <div class="editorcontent">
+            <h1 style=" text-align: center;font-size: 48px;">Web Templates</h1>
+            <h4 style=" text-align: center;">Browse our selection of free responsive HTML Templates
+
+            </h4><br>
+            <img class="mx-auto d-block" id="codeeditorimg" style="width: 94%; margin-left:30px;" src="https://www.w3schools.com/w3css_templates.webp" alt=""> <br><br>
+            <button style="margin-top: 16px; font-size: 21px;width: 800px;background-color:#282A35;color:white;
+            padding: 11px 18px; margin-left: 16%; border-radius:38px;" type="button" class="btn btn-dark btn-lg mx-auto d-block">Browse Templates</button>
+        </div>
+    </div>
+
+
+
+  
+<div class="row kickstart">
+    <h2 style="font-size: 55px; font-weight:560; color: #ffb3bb;">Kickstart your career</h2>
+    <p style="color: #FFC0C7; font-size: 52px;font-weight:530;
+      margin-top: 1em;
+      margin-bottom: 1em;">Get certified by completing a course</p>
+    <button style="margin-top: 16px; font-size: 20px;color:white;border-radius:28px; width: 190px;height:60px;background-color:#04AA6D;" type="button" class="btn btn-success ">Get started</button><br><br>
+</div>
+<div class="row webtemplates" style="background-color:#ffffff!important;">
+    <div class="editorcontent">
+        <h1 style=" text-align: center;font-size: 60px;">How To Section</h1>
+        <h2 style=" text-align: center;">Code snippets for HTML, CSS and JavaScript </h2>
+        <h4 style=" text-align: center;">For example, how to create a slideshow:</h4>
+        <center><img class="mx-auto d-block" id="codeeditorimg" style="width: 90%; margin-left:40px;" src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt=""></center> <br><br>
+        <button style="margin-top: 16px; font-size: 21px;width: 250px;background-color:#04AA6D;border-style:none;
+        padding: 11px 18px; margin-left: 5%; border-radius:38px;" type="button" class="btn btn-dark btn-lg mx-auto d-block">Learn How To</button><br><br>
+    </div>
+</div>
+<div class="footerbody">
+    <div class="foothead" >
+        <img src="https://www.w3schools.com/aws/img_aws_w3_logo.png" style="height:50px; margin-top:35px; margin-left:30px;">
+            <h1 class="footmini">Plus</h1> 
+            <h1 class="footmini">SPACES</h1>
+            <h1 class="footmini">GET CERTIFIED</h1>
+            <h1 class="footmini">FOR TEACHERS</h1>
+            <h1 class="footmini">FOR BUSINESS</h1>
+            <h1 class="footmini">CONTACT US</h1>
+    </div>
+    <div class="foothead" >
+        <div class="footheadp" style="text-align:left;">
+            <h1 style = font-size:18px;>Top Tutorials</h1>
+            
+            <span>HTML Tutorial</span>
+            <span>CSS Tutorial</span>
+            <span>JavaScript Tutorial</span>
+            <span>How To Tutorial</span>
+            <span>SQL Tutorial</span>
+            <span>Python Tutorial</span>
+            <span>W3.CSS Tutorial</span>
+            <span>Bootstrap Tutorial</span>
+            <span>PHP Tutorial</span>
+            <span>Java Tutorial</span>
+            <span>C++ Tutorial</span>
+        </div>
+        <div class="footheadp" style="text-align:left;"  >
+            <h1 style = font-size:18px;>Top References</h1>
+            <span>HTML Reference</span>
+            <span>CSS Reference</span>
+            <span>JavaScript Reference</span>
+            <span>SQL Reference</span>
+            <span>Python Reference</span>
+            <span>W3.CSS Reference</span>
+            <span>Bootstrap Reference</span>
+            <span>PHP Reference</span>
+            <span>HTML Colors</span>
+            <span>Java Reference</span>
+            <span>Angular Reference</span>
+            <span>jQuery Reference</span>
+
+        </div>
+        <div class="footheadp" style="text-align:left;" >
+            <h1 style = font-size:18px;>Top Examples</h1>
+            <span>HTML Examples</span>
+            <span>CSS Examples</span>
+            <span>JavaScript Examples</span>
+            <span>How To Examples</span>
+            <span>SQL Examples</span>
+            <span>Python Examples</span>
+            <span>W3.CSS Examples</span>
+            <span>Bootstrap Examples</span>
+            <span>PHP Examples</span>
+            <span>Java Examples</span>
+            <span>XML Examples</span>
+            <span>jQuery Examples</span>
+            
+
+        </div>
+        <div class="footheadp" style="text-align:left;" >
+            <h1 style = font-size:18px;>Get Certified</h1>
+            <span>HTML Certificate</span>
+            <span>CSS Certificate</span>
+            <span>JavaScript Certificate</span>
+            <span>Front End Certificate</span>
+            <span>SQL Certificate</span>
+            <span>Python Certificate</span>
+            <span>PHP Certificate</span>
+            <span>jQuery Certificate</span>
+            <span>Java Certificate</span>
+            <span>C++ Certificate</span>
+            <span>C# Certificate</span>
+            <span>XML Certificate</span>
+           
+
+        </div>
+        
+
+    </div>
+    
+    <p style="text-align:left; font-size:15px; font-weight:600; margin-left:35px;padding-left:35px;">W3Schools is optimized for learning and training.Examples might be simplified to improve<br> reading and learning.
+        Tutorials, references, and examples are constantly reviewed to avoid errors, <br>but we cannot warrant full correctness
+        of all content. While using W3Schools,<br> you agree to have read and accepted our terms of use, cookie and privacy policy.</p>
+       
+         <span style="text-align:left;margin-left:35px;padding-left:35px;">Copyright 1999-2024 by Refsnes Data. All Rights Reserved. W3Schools is Powered by W3.CSS</span>
+        
+     
+
+</div>
+ </div>
+</body>
+
+</html>
